@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: vote
-    tier: front
+    tier1: front
   name: vote
 spec:
   ports:
