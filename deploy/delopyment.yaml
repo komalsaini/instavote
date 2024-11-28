@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion1: apps/v1
 kind: Deployment
 metadata:
   creationTimestamp: null
@@ -7,10 +7,10 @@ metadata:
     tier: front
   name: vote
 spec:
-  replicas: 2
+  replicas2: 2
   selector:
     matchLabels:
-      app: vote
+      app2: vote
   strategy: {}
   template:
     metadata:
